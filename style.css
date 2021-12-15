@@ -1,6 +1,6 @@
 
 .header {
-    display: flex;
+    /* display: flex; */
 
     background: #1f2937;
     color: white;
@@ -12,10 +12,34 @@
     color: white;
 }
 
-.body {
+body {
     display: flex;
+    margin: 0;
+    /* height: 100%; */
+    flex-direction: column;
+    /* min-height: 100vh; */
+    background: #1f2937;
 }
 
+.contentBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: white;
+    flex-direction: column;
+
+}
+
+
+
 .footer {
+    display: flex;
+    flex: 1;
+    margin-top: auto;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
 
 }
