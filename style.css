@@ -1,3 +1,7 @@
+* { /* border all the things to visualize flex containers and items */
+    border: 2px solid blue
+  }
+
 
 .header {
     display: flex;
@@ -55,10 +59,25 @@ body {
     min-height: 100vh;
     color: white;
     flex-direction: column;
-
 }
 
+.informationSection {
+    display: flex;
+    background: white;
+    width: 100%;
+}
 
+.superInspirationalQuote {
+    display:flex;
+    font-style: italic;
+    font-weight: lighter;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    background: #e5e7eb;
+    width: 100%;
+    padding: 50px;
+}
 
 .footer {
     display: flex;
