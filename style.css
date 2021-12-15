@@ -1,15 +1,42 @@
 
 .header {
-    /* display: flex; */
-
+    display: flex;
     background: #1f2937;
     color: white;
+    position: fixed; /* Set the heade to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%;
 
 }
 
-.headerlinks {
+.headerText {
+    display: flex;
+    margin: 16px;
+    margin-left: 60px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.headerLinks {
+    display: flex;
     margin-left: auto;
     color: white;
+    text-decoration: none;
+    padding-right: 16px;
+}
+
+
+li {
+    padding-right: 16px;
+}
+
+
+ul {
+    list-style-type: none;
 }
 
 body {
