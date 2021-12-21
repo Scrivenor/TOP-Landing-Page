@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html ID = "top" lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,29 +13,51 @@
     
     <!-- commenting -->
     <div class="header">
-        <div class = "headerText">Header Logo</div>
+        <a href = "#top" class = "headerText">Fake Comapny Inc.</a>
         <ul class = "headerLinks">     
-            <li><a href = "" class = "headerlinks">Header link one</a></li>
-            <li><a href = "" class = "headerlinks">Header link two</a></li>
-            <li><a href = "" class = "headerlinks">Header link three</a></li>
+            <li><a href = "#staff" class = "headerlinks">Our Staff</a></li>
+            <li><a href = "#quotes" class = "headerlinks">Testimonials</a></li>
+            <li><a href = "#contact" class = "headerlinks">Contact Us</a></li>
         </ul>
     </div>
     
     <div class = "contentBox">  
     <!-- all main sections will be in here  -->
-        <div class = "about Section">
-            <h1>This website is awesome</h1>
-            <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
-            <p>this should be a button</p>
-            <p>this should be an image to the right of all the text</p>
+        <div ID = "top" class = "about Section">
+            <div class = "aboutText">
+                <h1>This website is awesome</h1>
+                <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
+                <p>this should be a button</p>  
+            </div>
+            <div class = "aboutPic">
+                <img src="images/FakeLogo.png"></p>
+            </div>
         </div>
-        <div class = "information Section">
-            This is the information section
+        <div ID = "staff" class = "information Section">
+            Meet our dedicated staffers!
+            <div class = "infoBox">
+                <div class = "weeBox">
+                    <img src = "images/aliens.jpeg" class = "infoBoxPics"></img>
+                    <div class = "weeBoxText">Reginald Farthington, Spc.</div>
+                </div>
+                <div class = "weeBox">
+                    <img src = "images/doge.jpg" class = "infoBoxPics"></img>
+                    <div class = "weeBoxText">Capt. Doge D. Dogeson</div>
+                </div>
+                <div class = "weeBox">
+                    <img src = "images/dude.png" class = "infoBoxPics"></img>
+                    <div class = "weeBoxText">Beef Supreme, First of His Name</div>
+                </div>
+                <div class = "weeBox">
+                    <img src = "images/cantBlankIfBlank.jpeg" class = "infoBoxPics"></img>
+                    <div class = "weeBoxText">Pres. Brian Brainerson</div>
+                </div>
+            </div>
         </div>
-        <div class = "superInspirationalQuote Section">
+        <div ID = "quotes" class = "superInspirationalQuote Section">
             "This is a super inspirational quote" -Some guy
         </div>
-        <div class = "signup Section">
+        <div ID = "contact" class = "signup Section">
             THis is the email sign up thingy
         </div>
 
