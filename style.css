@@ -130,15 +130,19 @@ ul {
     align-items: center;
     justify-content: center;
     background: #e5e7eb;
-    /* padding: 100px; */
+    padding-top: 100px;
+    padding-bottom: 100px;
     /* flex-direction: column; */
+    
 }
 
 .signup {
     align-items: center;
     justify-content: center;
     color: black;
-    padding: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
 }
 
 .footer {
