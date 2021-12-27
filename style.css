@@ -55,8 +55,6 @@ ul {
 .Section {
     display: flex;
     width: 100%;
-    /* min-height:300px; */
-
 }
 
 .contentBox {
@@ -100,7 +98,6 @@ ul {
     width: 100%;
     margin: 25px;
     gap: 50px;
-    
 }
 
 .weeBox {
@@ -109,6 +106,8 @@ ul {
     align-items: center;
     
 }
+
+
 
 .weeBoxText {
     text-align: center;
@@ -145,6 +144,28 @@ ul {
     
 }
 
+.signupContainer {
+    display: flex;
+    gap:50px;
+    align-items: center;
+    justify-content: center;
+    border: 20px solid blueviolet;
+    border-radius: 32px;
+
+}
+
+.signupText{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 400px;
+}
+
+.signupButton {
+    padding: 8px 16px;
+    border-radius: 8px;
+    margin-right: 400px;
+}
+
 .footer {
     display: flex;
     margin-top: auto;
@@ -153,4 +174,6 @@ ul {
     color: white;
     background: #1f2937;
     width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
