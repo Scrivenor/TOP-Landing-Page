@@ -55,6 +55,8 @@ ul {
 .Section {
     display: flex;
     width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .contentBox {
@@ -68,16 +70,27 @@ ul {
 .about {
     background: #1f2937; 
     justify-content: space-between;
+    gap: 50px;
 }
 
 .aboutText {
     display: flex;
     flex-direction: column;
     margin-left: 200px;
+    /* gap: 20px; */
 }
 
 .aboutPic {
     margin-right: 200px;
+}
+
+.aboutButton {
+    padding: 8px 16px;
+    border-radius: 8px;
+    width: 100px;
+    background-color: rgb(100, 100, 250);
+    color: white;
+    border:none;
 }
 
 .information {
